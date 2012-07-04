@@ -22,10 +22,16 @@ In order to deliver richly interactive content to a web client you need to deliv
 1) Ahead of time (AOT) compilation to bytecode which runs on a virtual machine installed on the client (e.g. Java, Adobe Flash Player) 
 2) Just in time (JIT) compilation by a compiler installed on the client machine (e.g. ECMAScript/JavaScript)
 
-I will briefly consider these here, for more information on the background of this section please see appendix A: ‘How to hit a moving target platform’ 
+I will briefly consider the 3 main technologies  with regard to the use of these strategies on the web currently.
+Java – mainly AOT compilation to bytecode for a virtual machine
+ActionScript – also AOT compilation to bytecode for a virtual machine
+JavaScript – JIT compilation by a compiler embedded in the web browser.
 
-Firstly it’s important to say that all each of these three technologies have both stratagies available, Hotspot the Java Virtual Machine uses JIT technology as does Adobe’s AVM2 embedded in Flash Player version 9 and upwards. Google have created Closure a Javascript to Javascript compiler that performs static analysis based on code/type hints that the programmer leaves in the source code at authoring time, so there is usually a blended approach to the strategies.
-The benefit of AOT compilation is that the compiler has enough time to perform static analysis on the source code which enables it to make optimisations, this is a time luxury that the JIT compiler does not have. The vitual machine can also be optimised, such as 
+Firstly it’s important to say that all each of the current technologies have both stratagies available, Oracle's Hotspot, the Java Virtual Machine, uses JIT technology as does Adobe’s AVM2 embedded in Flash Player version 9 and upwards. Google have created Closure a Javascript to Javascript AOT compiler that performs static analysis based on code/type hints that the programmer leaves in the source code at authoring time, creating optimised source code for final delivery to the browser, so there is usually a blended approach to the strategies.
+
+The benefit of AOT compilation is that the compiler has enough time to perform static analysis on the source code which enables it to make optimisations, this is a time luxury that the JIT compiler does not have, however there are problems with the virtual machine approach when used on the (potentially hostile) web. Java's security is complex, because the delivered bytecode is at a lower level, in comparison to Javascript  source code it is harder to verify for safety, according to Prof. Michael Franz of UC Irvine the JVM's bytecode verifier has O(n^4) complexity.[#ref!], making it slow and error prone, this is why Brian Krebs, computer security and Washington Post columnist named the JVM 'the number one paid for malware vector', in 2010 Microsoft described the situation as 'Unprecedented wave' of Java exploits hitting users, and security experts Symantec added 'Java makes a tempting target', for web delivery 
+
+Leaving many to conclude: 'Javascript is as low-level as a web programming language goes' – delivering source code to a client for JIT compilation looses on run-time speed but wins out on start-up speed and security. 
 
 
 
