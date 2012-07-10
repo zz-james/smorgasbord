@@ -1,0 +1,97 @@
+Outline of project
+Title:  Development of a tool to facilitate the production of animated interactive learning materials, games and simulations – a software engineering approach.
+
+Introduction
+The use of animation, simulation, and games in education has attracted a lot of research attention; some along the lines of ‘is it good, or is it not good?’ but more nuanced research has developed theories and principles of when it is good to use animated content and when it is not, and also principles in designing good animated educational content [1], accepting that any form of media can be used for teaching and learning, if it is used correctly.
+
+The Wikipedia page on ‘Educational Animation’ [2] summarises the advantages:
+“In contrast with static pictures, animations can show temporal change directly (rather than having to indicate it indirectly using auxiliary markings such as arrows and motion lines). Using animations instead of static graphics removes the need for these added markings so that displays can be not only simpler and less cluttered, but also more vivid, engaging, and more intuitively comprehended. In addition, the learner does not have to interpret the auxiliary markings and try to infer the changes that they summarise. Such interpretation and inference may demand a level of graphicacy skills that the learner does not possess. With animated depictions, information about the changes involved is available to be read straight from the display without the learner needing to perform mental animation.”
+
+However, it is the use of games in learning that raised the debate on what the alliance of technology, 
+education and media means:
+
+“Because television, the internet, computer games and so on have become so accessible, entertaining and persuasive, it is claimed that schools increasingly struggle to meet the high production-value expectations of children. This is expressed in the demand for teachers and schools to embrace new technologies, to make lessons more fun and to improve the ‘slickness’ of their presentations.” [3]
+
+This project is aiming to facilitate teachers, developers, educators, learning technologists in the production of animation/simulation/games as learning material. The intention is to ultimately situate a game engine and authoring tools within a online virtual learning environment (VLE)providing not just tools for creating and displaying this content but also assisting with feedback to the VLE to monitor students progress using the material, even potentially setting learners the task of authoring their own content – and getting feedback from this.
+
+This stage of the project is primarily focused on creating a reusable framework which is extensible, flexible and with good enough performance to support the construction of learning materials by a web developer or learning technologist with some development experience; ultimately this will form the foundation of a much more accomplished tool, which will contain an intuitive useable GUI, resource management and functions that allow content to be shared between authors.
+
+Overview of capabilities and platform implementation considerations
+From the start it is important that the system supports distributed learning, i.e. it can be embedded into the web page in an online learning system, also in order to facilitate ‘micro-learning’ [4] it should be possible to use the material the system produces on a mobile phone or tablet device. In short, it should be available on as many web enabled devices as possible, and should not require any special technical knowledge to install. 
+
+In order to deliver richly interactive content to a web client you need to deliver some kind of executable instructions, ideally the same instructions can be sent to any supported platform and it will execute in roughly the same manner. On the web there are 2 main strategies for achieving this:
+
+1) Ahead of time (AOT) compilation to byte-code which is served by the webserver then executed on a virtual machine installed on the client (e.g. Java, Adobe Flash Player) 
+2) Just in time (JIT) compilation of source code (served by the webserver) by a compiler installed on the client machine (e.g. ECMAScript/JavaScript)
+
+I will briefly consider the 3 main technologies  with regard to the use of these strategies on the web currently.
+1. Java – mainly AOT compilation to bytecode for a virtual machine (jvm)
+2. ActionScript – also AOT compilation to bytecode for a virtual machine (avm2)
+3. JavaScript – JIT compilation by a compiler embedded in the web browser. (e.g. v8)
+
+Firstly it’s important to say that all each of the current technologies have both stratagies available, Oracle's Hotspot, the Java Virtual Machine, uses JIT technology (mainly inline cacheing)[] as does Adobe’s AVM2 embedded in Flash Player version 9 and upwards. Google have created Closure a Javascript to Javascript AOT compiler that performs static analysis based on code/type hints that the programmer leaves in the source code at authoring time, creating optimised source code for final delivery to the browser, so there is usually a blended approach to the strategies.
+
+The benefit of AOT compilation is that the compiler has enough time to perform static analysis on the source code which enables it to make optimisations, this is a time luxury that the JIT compiler does not have, however there are problems with the virtual machine approach when used on the (potentially hostile) web:
+
+Java's security is complex, because the delivered byte-code is at a lower level, in comparison to Javascript  source code it is harder to verify for safety, according to Prof. Michael Franz of UC Irvine “the JVM's byte-code verifier has O(n^4) complexity.[#ref!]”, making it slow and error prone, this is why Brian Krebs, computer security and Washington Post columnist named the JVM 'the number one paid for malware vector', in 2010 Microsoft described the situation as an 'Unprecedented wave' of Java exploits hitting users, and security experts Symantec added 'Java makes a tempting target [for hackers]'
+
+Leaving many to conclude: 'Javascript is as low-level as a web programming language goes' []
+
+In addition to this, Java startup time is often slow [6] “much of the startup time is due to IO-bound operations rather than Virtual Machine initialization or class loading, the rt.jar class data file alone is 40 MB and the JVM must seek a lot of data in this huge file”
+
+Of the 2 strategies, delivering source code to a client for JIT compilation looses on run-time speed but wins out on start-up speed and security. The question then is  which one of these factors is most important? To answer that we can look at performance benchmarks for each technology performing operations similar to what we are aiming to do.
+
+Fortunately http://bubblemark.com/  is exactly this, a benchmark for browser based animations. Running the benchmarks on an acer aspire one laptop with 1.66Ghz processor, 1GB Ram, 512 KB L2 cache, 64 MB of dedicated video memory I got the following results:
+
+V8 Jit compiled JavaScript running in Google Chrome v20 = 171 Frames Per Second (fps)
+Flash Player 9.0 = 57 FPS
+Java (Swing) = 181 FPS
+TraceMonkey JIT compiled Javascript in Mozilla Firefox = 57 FPS
+
+The animations I am hoping to create with this software should play at roughly 55-60 FPS, which means that any of the technologies will do, so I am discounting Java – I do not need the higher performance and see no reason for increasing potential security problems on the end users machines, it is also unavailable on Apple iPhone and iPad platforms, a roughly equivalent argument about security and Apple support can also be made against choosing Flash player as the target for this software.
+
+Thus, javascript is the target language, and the various browser implemented Javascript JIT compilers are the target 'platform'. 
+
+The nature of the project therefore:
+
+	(a) what is the architecture of the system? and 
+	(b) how does this get implemented in javascript? 
+
+This second point may not immediately seem of interest, but javascript was designed as a lightweight interpreted scripting language for non-professional programmers, it is based on scheme, smalltalk, and self but given a java-like syntax at the last minute, a decision made by the marketeers at Netscape (where the language was invented) not by the engineers, where, the legend has it, it was developed in 10 days. 
+
+Since 2007 with the release of Google's Chrome web browser, the role of the language has changed. V8, Chrome's Javascript compiler was designed by Lars Bak, a specialist in JIT compiler design, he introduced optimisation methods such as type inference, inline caching and generational-incremental garbage collection which have improved performance by at least 10 times in benchmark tests. Now serious attention is being given to applying software engineering methodologies to javascript projects. The challenge with this is that Javascript is not a strongly typed, class based imperative language, and much software engineering methodology has grown up with C++ and Java which are. The result is, the use of UML (in particular class diagrams), established design patterns and techniques such as type polymorhpism have to be rethought. 
+
+The other technical challenge is using the browser as embedded environment, this challenge is more 'hitting a moving target' since browser version numbers are in double digits, and even up to version 15 for Firefox and 20 for Chrome, what techniques can we use to best future-proof the codebase? If browsers diverge in areas – for example Apple Safari has hardware acceleration for CSS declared animations, Chrome has hardware acceleration for its Canvas bitmap animations – then how can we best design the codebase to take this into account? 
+
+These issues impact considerably on both the strategies used in the organisation and idioms employed, as well as the overall system architecture. The following section considers existing published architectural documents for similar projects, and using these as a conceptual springboard, presents a derivation suitable for execution  embedded into a web browser. 
+
+
+
+Use interface
+
+Appropriate interface and notification tools
+
+Challanges -> understanding intuitinve mechanisms -> USE OF A DOMAIN SPECIFIC LANGUAGE?
+Designing 
+Feedback
+
+Designed to support applications to produce 
+Distributed learning
+Mobile learning
+Micro learning
+2 – Overview
+Sets the scene by giving an overview of an envisaged use context
+3- Conceptual Model
++ methodology to develop it
+4 – Overalll system architecture
+Meets the requirement of extensibility, flexibiligy, performance
+5 – Technical Details
+
+ Footnotes:
+
+[1] Mayer, R.E., & Moreno, R. (2002). Animation as an aid to multimedia learning. Educational Psychology Review, 14, 87-99
+[2] http://en.wikipedia.org/wiki/Educational_animation
+[3] Kenway, J and Bullen, E (2001) Consuming Children: Education-entertainmentadvertising (Maidenhead: Open University Press).
+[4] http://en.wikipedia.org/wiki/Micro_learning
+[5] http://krebsonsecurity.com/2010/10/java-a-gift-to-exploit-pack-makers/
+[6] http://en.wikipedia.org/wiki/Java_performance 
