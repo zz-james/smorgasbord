@@ -12,7 +12,9 @@ education and media means:
 
 “Because television, the internet, computer games and so on have become so accessible, entertaining and persuasive, it is claimed that schools increasingly struggle to meet the high production-value expectations of children. This is expressed in the demand for teachers and schools to embrace new technologies, to make lessons more fun and to improve the ‘slickness’ of their presentations.” [3]
 
-This project is aiming to facilitate teachers, developers, educators, learning technologists in the production of animation/simulation/games as learning material. The intention is to ultimately situate a game engine and authoring tools within a online virtual learning environment (VLE)providing not just tools for creating and displaying this content but also assisting with feedback to the VLE to monitor students progress using the material, even potentially setting learners the task of authoring their own content – and getting feedback from this.
+This project is aiming to facilitate teachers, developers, educators, learning technologists in the production of animation/simulation/games as learning material. The approach to this is to develop a 'game engine' . As noted in wikipedia “Despite the specificity of the name, game engines are often used for other kinds of interactive applications with real-time graphical needs such as marketing demos, architectural visualizations, training simulations, and modeling environments.” [20] 
+
+The intention is to ultimately situate a game engine and authoring tools within a online virtual learning environment (VLE) providing not just tools for creating and displaying this content but also assisting with feedback to the VLE to monitor students progress using the material, even potentially setting learners the task of authoring their own content – and getting feedback from this.
 
 This stage of the project is primarily focused on creating a reusable framework which is extensible, flexible and with good enough performance to support the construction of learning materials by a web developer or learning technologist with some development experience; ultimately this will form the foundation of a much more accomplished tool, which will contain an intuitive useable GUI, resource management and functions that allow content to be shared between authors.
 
@@ -63,7 +65,7 @@ Since 2007 with the release of Google's Chrome web browser, the role of the lang
 
 The other technical challenge is using the browser as embedded environment, this challenge is more 'hitting a moving target' since browser version numbers are in double digits, and even up to version 15 for Firefox and 20 for Chrome, what techniques can we use to best future-proof the codebase? If browsers diverge in areas – for example Apple Safari has hardware acceleration for CSS declared animations, Chrome has hardware acceleration for its Canvas bitmap animations – then how can we best design the codebase to take this into account? 
 
-These issues impact considerably on both the strategies used in the organisation and idioms employed, as well as the overall system architecture. The following section considers existing published architectural documents for similar projects, and using these as a conceptual springboard, presents a derivation suitable for execution  embedded into a web browser. 
+These issues impact considerably on both the strategies used in the organisation and idioms employed, as well as the overall system architecture. The following section considers the software requirements and looks at existing published architectural documents for similar projects, and using these as a conceptual springboard, presents a derivation suitable for execution  embedded into a web browser. 
 
 
 
@@ -95,3 +97,39 @@ Meets the requirement of extensibility, flexibiligy, performance
 [4] http://en.wikipedia.org/wiki/Micro_learning
 [5] http://krebsonsecurity.com/2010/10/java-a-gift-to-exploit-pack-makers/
 [6] http://en.wikipedia.org/wiki/Java_performance 
+[20] ELDAWY, Mohamed. Report on use of middleware in games. Madison, 2006 via http://en.wikipedia.org/wiki/Game_engine#cite_note-3
+
+
+
+
+At this stage a 10 point requirement list, adapted from the book 'Software Engineering and Computer Games' by Rudy Rucker [2.1] will serve as an adequate jumping off point, since for this stage the project functionality of the software is not 'novel' but rather it is the implementation within the context of the web browser which is where we are being most creative.
+
+Requirements:
+
+The end-user should be able determine the graphics/sound by loading their own resources
+Support for physics simulation – to make the objects move realistically.
+Support for some artificial intelligence – to make complex simulations and interesting games
+Support for 'character animation' to enable more visually compelling games.
+Provide Sound/Audio – to provide effects and background music.
+Support mouse and keyboard input. 
+Graphics rendering system 'neutral', so that it can use whatever rendering system is optimal.
+Real-time animation.  (the simulated motion per frame is linked to the actual real-world time elapsed between frames).
+Animation speed of 60 frames per second (at least 90% of the time).
+Save and to load files that contain the current state.
+
+There is another more fundamental requirement for our end user, who may be working with the software as a developer with many other responsibilities and perhaps limited time resources (our end user for example may work in a university department with a tight budget)
+
+Knowledge of such things as web browser idiosyncrasies, WC3 APIs, and Javascript optimisations are not useful to many people outside this development work, and we cannot assume our end user has the time or motivation to learn them, so our framework should be written to cover this portion of the problem, leaving our end-user free to focus on writing the code for their specific project. 
+
+This is the same technique used in professional software development companies, for example the iPhone hardware interface portion of an application may be written once, and after this there is no need for future projects to touch the underlying APIs, the framework will do that for them, this framework may in fact, have been developed by someone else and bought in. 
+
+Realistically, the more the framework abstracts for you, the more specialised it becomes, so, for example when you write a game engine, it is a specialisation, and there will be projects is is not suitable for. 
+
+"The process of 'specialization' happens step-by-step - a game engine starts, at it's lowest level, supporting every possible 'game', and then as you add more to it, it 'converges' on a set of limitations. You can picture it as a pyramid - the base is wide and supports the rest, while the top is a finely focused point, allowing only a very small set of games to be built on top. If we remove the top half of the pyramid, we're left with a much wider base to build a larger set of games on - those games will, however, need to do more of the building work themselves. So an engine can be progressively built up in this way, adding layer by layer." Richard Fine of GameDev.net [2.2] 
+
+In Game Coding Complete, 3rd (Paperback), Mike McShaffry says of game engine architecture "You can take every sub-system in a game engine and classify it as belonging to one of three primary categories, the application layer, the game logic layer and the game view layer. The application layer deals with the hardware and the operating system, the game logic layer manages your game state ... the game view layer presents the game state with graphics and sound". This then, is a document-view architecture similar to Windows MFC, it is also similar to SmallTalk's Model-View-Controller pattern, which is very popular in client-server architectures, except it adds a hardware abstraction layer. 
+
+In the browser, the use of a separate module for the view layer should enable us to choose between the various rendering techniques, helping us to cope with the possible changes and new features in the rapidly changing browser landscape - for example we can use CSS based animation rendering module for hardware accelerated iPhone, or swap this for a canvas element rendering module for use in google's chrome browser - all of which should not involve changes to individual projects developed by our end users, which should be confined to the game logic layer.
+
+[2.1] Game Coding Complete, 3rd edition Mike McShaffry
+[2.2] http://www.gamedev.net/page/resources/_/technical/game-programming/enginuity-part-i-r1947
