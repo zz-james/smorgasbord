@@ -110,28 +110,33 @@ Realistically, the more the framework abstracts for you, the more specialised it
 
 In Game Coding Complete, 3rd (Paperback), Mike McShaffry says of game engine architecture "You can take every sub-system in a game engine and classify it as belonging to one of three primary categories, the application layer, the game logic layer and the game view layer. The application layer deals with the hardware and the operating system, the game logic layer manages your game state ... the game view layer presents the game state with graphics and sound". 
 
-The quote above describes a 'Model-View-Controller' like architecture, it is designed to keep the data model and the functional core that manipulates the data independent of the user interface. In our scenario the 'user interface' is the animated output from the engine, and since we are creating a system capable of supporting interactive animations and games, we also need to handle user input from the mouse and keyboard. 
-
-In a web browser, user events such as mouse clicks originate in the Document Object Model 
-
-
- similar to Windows MFC.
+The quote above describes a 'Model-View-Controller' like architecture. A Model-View-Controller architecture is designed to keep the data model and the functional core that manipulates the data independent of the user interface. 
 
 In the browser, the use of a separate module for the view layer should enable us to choose between the various rendering techniques, helping us to cope with the possible changes and new features in the rapidly changing browser landscape - for example we can use CSS based animation rendering module for hardware accelerated iPhone browser, or swap this for a canvas element rendering module which is accelerated in Google's Chrome browser - all of which should not involve changes to individual projects developed by our end users, which should be confined to the game logic layer.
 
-Comparison with Windows MFC applications
+In our system, the 'user interface' is the animated output from the engine, and also, since we are creating a system capable of supporting interactive animations and games, it needs to handle user input from the mouse and keyboard. 
+
+In a web browser, user events such as mouse clicks generate 'event objects' that originate in the browser's document-object-model (DOM) which is an object oriented api in the form of a tree of 'html element nodes'. This is the same tree that is used for passing updates to the browsers rendering engine, which means that the 'view' and 'control' layers of the architecture are combined, this is simlar to the architecture of Windows MFC, a C++ framework for Windows application development.
+
+“The Document-View variant recognizes all three roles of Model-View-Controller but merges the controller into the view. The document corresponds to the model role in MVC.” [2.4]
+
+A Comparison with Windows MFC applications
 In Windows application development, the high level architectural pattern is known as 'Document-view' Achitecture and comprises of 3 main components [2.3]:
 
 1. The application is the thing in charge of running your executable program. 
 2. The document holds the data involved in your game: things like the characteristics and positions of the game pieces. 
 3. The view is the graphical object in charge of displaying your window on the screen.
 
-Our system is embedded in the web browser and we will only ever require one instance of the game engine at a time, this means the application module will effectively be the browser. 
+Our system is embedded in the web browser and we will only ever require one instance of the game engine at a time, this means the application module will effectively be the browser, this means we only have to worry about 2 and 3.
 
-The Doument-View architecture also allows for multiple views of the same 'document' – in most cases this will not be necessary, but since it is a nice feature it should be included, we don't want to make too many assumptions about the requirements of our end users, just because we can't think of how a feature could be used.
+
+
 
 
 
 [2.1] Game Coding Complete, 3rd edition Mike McShaffry
 [2.2] http://www.gamedev.net/page/resources/_/technical/game-programming/enginuity-part-i-r1947
 [2.3] Software Engineering and Computer Games, Rudy Rucker 
+[2.4] http://msdn.microsoft.com/en-us/library/ff649643.aspx
+
+
