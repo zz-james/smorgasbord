@@ -1,32 +1,29 @@
-<!DOCTYPE html>
-<html>
 <head>
-    <title>Smorgasborg</title>
+    <title>
+        Sprite Demonstration
+    </title>
+    <script type="text/javascript">
+        // IE6 background image caching fix.
+        // Include this JavaScript a the top of your page.
+        try {
+            document.execCommand("BackgroundImageCache", false, true);
+        } catch(e) {}
+    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" data-main="lib/smorgasbord/bord2" src="lib/require/require.js"></script>
     <style type="text/css">
-        html,body {
-            background-color: #000;
-            color: #fff;
-            font-family: helvetica, arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            font-size: 12pt;
-        }
-
-        #canvas {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            border: 1px solid #555;
+        #draw-target {
+            width:480px;
+            height:320px;
+            background-color:#ccf;
+            position:relative;
         }
     </style>
 
-    <script type="text/javascript" data-main="lib/smorgasbord/smorgasbord" src="lib/require/require.js"></script>
-
 </head>
+
 <body>
-<div id="screen"></div>
+<p>DHTML Demonstration. Static sprites being drawn.</p>
+<div id="draw-target"></div>
 </body>
 </html>
