@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca1d184-3406-47dd-a37e-e32ca17a5ab1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
     </list>
     <ignored path="smorgasbord.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,28 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bord.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bord2.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="21" selection-start="2001" selection-end="2001" vertical-scroll-proportion="-0.1438515">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="67" selection-start="504" selection-end="504" vertical-scroll-proportion="-0.6923077">
+            <state line="2" column="67" selection-start="90" selection-end="90" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smorgasbord.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="30" selection-start="3620" selection-end="3620" vertical-scroll-proportion="0.6864608">
               <folding />
             </state>
           </provider>
@@ -71,19 +60,19 @@
         <option value="$PROJECT_DIR$/lib/smorg/Person.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/KillerDuck.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/Duck.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/bord2.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="616" />
+    <option name="width" value="1296" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -111,6 +100,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,15 +173,23 @@
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -192,10 +199,10 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
@@ -212,7 +219,7 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugSession" factoryName="Local">
+    <configuration default="false" name="index.html" type="JavascriptDebugSession" factoryName="Local" editBeforeRun="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="chrome" />
         <option name="fileUrl" value="file://$PROJECT_DIR$/index.html" />
@@ -283,7 +290,11 @@
       <created>1342611641982</created>
       <updated>1342611641982</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dhtml sprites from supercharged books">
+      <created>1342992620201</created>
+      <updated>1342992620201</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -307,13 +318,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="616" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1040" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27172828" sideWeight="0.67105263" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21638823" sideWeight="0.49122807" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50877196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -367,7 +378,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="tied browser architecture with windows wfc" />
+    <option name="LAST_COMMIT_MESSAGE" value="dhtml sprites from supercharged books" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -388,6 +399,7 @@
     <MESSAGE value="done basic requirements on to architevture" />
     <MESSAGE value="some getting into comparisons with MVC and MFC, need to look at events model for user UI" />
     <MESSAGE value="tied browser architecture with windows wfc" />
+    <MESSAGE value="dhtml sprites from supercharged books" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -398,47 +410,43 @@
         <state line="0" column="0" selection-start="0" selection-end="296" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorg/KillerDuck.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="3" selection-start="537" selection-end="648" vertical-scroll-proportion="-8.230769">
-          <folding />
-        </state>
+        <state line="31" column="77" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.61637425" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.15777262">
+        <state line="14" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.1251462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorg/KillerDuck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="31" selection-end="235" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="22" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="67" selection-start="504" selection-end="504" vertical-scroll-proportion="-0.6923077">
+        <state line="2" column="67" selection-start="90" selection-end="90" vertical-scroll-proportion="-1.3076923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="21" selection-start="2001" selection-end="2001" vertical-scroll-proportion="-0.1438515">
+        <state line="75" column="30" selection-start="3620" selection-end="3620" vertical-scroll-proportion="0.6864608">
           <folding />
         </state>
       </provider>
