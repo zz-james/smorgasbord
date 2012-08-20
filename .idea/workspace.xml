@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca1d184-3406-47dd-a37e-e32ca17a5ab1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/lang/browser" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/lang/inheritence.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/Box2d.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/consrtuctor_extension_factory_method_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/demo2.js" />
-      <change type="DELETED" beforePath="C:\Users\james\WebstormProjects\smorgasbord\lib\smorgasbord\bord2.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/demo3.js" />
+      <change type="MOVED" beforePath="C:\Users\james\WebstormProjects\smorgasbord\lib\lang\browser" afterPath="$PROJECT_DIR$/lib/lang/browser.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/bord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
     </list>
@@ -43,19 +38,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smorgasbord.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="smorgasbord.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="21" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+            <state line="19" column="27" selection-start="404" selection-end="404" vertical-scroll-proportion="0.37777779">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bord.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bord2d.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="16" selection-start="2965" selection-end="2965" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bord.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.3385542">
+            <state line="14" column="0" selection-start="341" selection-end="505" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo3.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/demo3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="14" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,10 +97,12 @@
         <option value="$PROJECT_DIR$/lib/smorgasbord/inheritence.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/lib/lang/browser" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/bord2.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/demo2.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/demo3.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
       </list>
     </option>
   </component>
@@ -199,12 +214,15 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="recentsLimit" value="5" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\lang" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\lang" />
     </key>
@@ -306,7 +324,11 @@
       <created>1345065853714</created>
       <updated>1345065853714</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="integrating box 2D physics engine, question to subclass bord ?">
+      <created>1345467222967</created>
+      <updated>1345467222967</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -333,10 +355,12 @@
     <frame x="-8" y="-8" width="1296" height="1040" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27048528" sideWeight="0.49122807" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27048528" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50877196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -346,8 +370,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -390,7 +412,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="constructor factory method that supports over-riding and super calls - the method is a property of all constructors made with this factory and creates a nice chaining effect. in many of my own words but based on J.Resig Ninja book, listing 6.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="integrating box 2D physics engine, question to subclass bord ?" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -413,6 +435,7 @@
     <MESSAGE value="tied browser architecture with windows wfc" />
     <MESSAGE value="dhtml sprites from supercharged books" />
     <MESSAGE value="constructor factory method that supports over-riding and super calls - the method is a property of all constructors made with this factory and creates a nice chaining effect. in many of my own words but based on J.Resig Ninja book, listing 6.20" />
+    <MESSAGE value="integrating box 2D physics engine, question to subclass bord ?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -440,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/Box2d.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -466,27 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="25" selection-start="770" selection-end="770" vertical-scroll-proportion="-18.307692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lang/browser">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="482" selection-end="482" vertical-scroll-proportion="0.19883041">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorgasbord/demo2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="0" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.9602339">
@@ -494,9 +489,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/Box2d.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lang/browser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="25" selection-start="770" selection-end="770" vertical-scroll-proportion="-18.307692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/demo3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="14" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.3385542">
+        <state line="14" column="0" selection-start="341" selection-end="505" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="16" selection-start="2965" selection-end="2965" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="27" selection-start="404" selection-end="404" vertical-scroll-proportion="0.37777779">
           <folding />
         </state>
       </provider>
