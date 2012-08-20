@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca1d184-3406-47dd-a37e-e32ca17a5ab1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/demo3.js" />
-      <change type="MOVED" beforePath="C:\Users\james\WebstormProjects\smorgasbord\lib\lang\browser" afterPath="$PROJECT_DIR$/lib/lang/browser.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/bord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
     </list>
     <ignored path="smorgasbord.iws" />
@@ -38,19 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smorgasbord.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="smorgasbord.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="27" selection-start="404" selection-end="404" vertical-scroll-proportion="0.37777779">
+            <state line="4" column="30" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bord2d.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bord2d.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="16" selection-start="2965" selection-end="2965" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.05964912">
               <folding />
             </state>
           </provider>
@@ -59,7 +57,7 @@
       <file leaf-file-name="bord.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="341" selection-end="505" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,10 +97,10 @@
         <option value="$PROJECT_DIR$/lib/lang/browser" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/bord2.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/demo2.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/demo3.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
       </list>
     </option>
   </component>
@@ -328,7 +326,11 @@
       <created>1345467222967</created>
       <updated>1345467222967</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="subclass bord into bord2d and aggregate smorgs with box2d objecrs. Sometthing crappy going on with loading dependencies before trying to run the fucks. whatever. it is on it's way!">
+      <created>1345481458750</created>
+      <updated>1345481458750</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -412,7 +414,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="integrating box 2D physics engine, question to subclass bord ?" />
+    <option name="LAST_COMMIT_MESSAGE" value="subclass bord into bord2d and aggregate smorgs with box2d objecrs. Sometthing crappy going on with loading dependencies before trying to run the fucks. whatever. it is on it's way!" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -436,6 +438,7 @@
     <MESSAGE value="dhtml sprites from supercharged books" />
     <MESSAGE value="constructor factory method that supports over-riding and super calls - the method is a property of all constructors made with this factory and creates a nice chaining effect. in many of my own words but based on J.Resig Ninja book, listing 6.20" />
     <MESSAGE value="integrating box 2D physics engine, question to subclass bord ?" />
+    <MESSAGE value="subclass bord into bord2d and aggregate smorgs with box2d objecrs. Sometthing crappy going on with loading dependencies before trying to run the fucks. whatever. it is on it's way!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -510,6 +513,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorgasbord/demo3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="14" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
@@ -517,23 +534,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="341" selection-end="505" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="16" selection-start="2965" selection-end="2965" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="27" selection-start="404" selection-end="404" vertical-scroll-proportion="0.37777779">
+        <state line="6" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.05964912">
           <folding />
         </state>
       </provider>
