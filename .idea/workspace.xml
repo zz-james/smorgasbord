@@ -2,31 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca1d184-3406-47dd-a37e-e32ca17a5ab1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/lang/matrix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/lang/vector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorg/cogSmorg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/view/spriteIcon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/view/spriteLoop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/view/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/attributes/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/styles/style.css" />
-      <change type="DELETED" beforePath="C:\Users\james\WebstormProjects\smorgasbord\test.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\james\WebstormProjects\smorgasbord\lib\smorg\dev_smorg.js" afterPath="$PROJECT_DIR$/old/dev_smorg.js" />
-      <change type="MOVED" beforePath="C:\Users\james\WebstormProjects\smorgasbord\lib\smorg\smorg2d.js" afterPath="$PROJECT_DIR$/lib/view/matrix.js" />
-      <change type="MOVED" beforePath="C:\Users\james\WebstormProjects\smorgasbord\lib\smorgasbord\Box2d.min.js" afterPath="$PROJECT_DIR$/lib/force/Box2d.min.js" />
-      <change type="MOVED" beforePath="C:\Users\james\WebstormProjects\smorgasbord\lib\smorgasbord\bord2d_demo.js" afterPath="$PROJECT_DIR$/old/bord2d_demo.js" />
-      <change type="MOVED" beforePath="C:\Users\james\WebstormProjects\smorgasbord\lib\smorgasbord\demo.js" afterPath="$PROJECT_DIR$/old/demo.js" />
-      <change type="MOVED" beforePath="C:\Users\james\WebstormProjects\smorgasbord\lib\smorgasbord\demo2.js" afterPath="$PROJECT_DIR$/old/demo2.js" />
-      <change type="MOVED" beforePath="C:\Users\james\WebstormProjects\smorgasbord\lib\smorgasbord\demo3.js" afterPath="$PROJECT_DIR$/old/demo3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/view/graphics/dhtml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/view/graphics/graphics.js" />
+      <change type="MOVED" beforePath="C:\Users\james\WebstormProjects\smorgasbord\lib\view\graphics\dhtmlSprites.js" afterPath="$PROJECT_DIR$/lib/view/sprite/dhtmlSprites.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/cogSmorg.js" afterPath="$PROJECT_DIR$/lib/smorg/cogSmorg.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/smorg.js" afterPath="$PROJECT_DIR$/lib/smorg/smorg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" afterPath="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/bord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/smorgList.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/smorgList.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/view/graphics/dhtmlSprites.js" afterPath="$PROJECT_DIR$/lib/view/graphics/dhtmlSprites.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/view/sprite.js" afterPath="$PROJECT_DIR$/lib/view/sprite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/view/view.js" afterPath="$PROJECT_DIR$/lib/view/view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/attributes/attributes.js" afterPath="$PROJECT_DIR$/resources/attributes/attributes.js" />
     </list>
     <ignored path="smorgasbord.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +35,44 @@
     <favorites_list name="smorgasbord" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="view.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/view/view.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="12" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.76112413">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bord2d.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="12" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smorgList.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="39" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewPointSmorg.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/smorg/viewPointSmorg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="63" selection-end="77" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -60,30 +85,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgList.js" />
-        <option value="$PROJECT_DIR$/lib/smorg/smorg.js" />
-        <option value="$PROJECT_DIR$/old/demo2.js" />
-        <option value="$PROJECT_DIR$/lib/view/sprite.js" />
-        <option value="$PROJECT_DIR$/lib/view/spriteComposite.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
         <option value="$PROJECT_DIR$/lib/view/DHTMLsprite.js" />
         <option value="$PROJECT_DIR$/lib/view/spriteLoop.js" />
         <option value="$PROJECT_DIR$/lib/view/spriteIcon.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
-        <option value="$PROJECT_DIR$/resources/attributes/attributes.js" />
-        <option value="$PROJECT_DIR$/lib/view/view.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
-        <option value="$PROJECT_DIR$/lib/smorg/cogSmorg.js" />
         <option value="$PROJECT_DIR$/lib/lang/vector.js" />
         <option value="$PROJECT_DIR$/lib/lang/matrix.js" />
+        <option value="$PROJECT_DIR$/lib/smorg/smorg.js" />
+        <option value="$PROJECT_DIR$/resources/attributes/attributes.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
+        <option value="$PROJECT_DIR$/lib/smorg/cogSmorg.js" />
+        <option value="$PROJECT_DIR$/lib/view/graphics/graphics.js" />
+        <option value="$PROJECT_DIR$/lib/view/graphics/dhtml.js" />
+        <option value="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgList.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
+        <option value="$PROJECT_DIR$/lib/view/view.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1040" />
+    <option name="width" value="1036" />
+    <option name="height" value="612" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -111,16 +136,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,6 +218,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="smorgasbord" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -239,22 +276,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -278,11 +307,11 @@
       <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\lang" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\view\sprite" />
       <recent name="C:\Users\james\WebstormProjects\smorgasbord\old" />
       <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\force" />
       <recent name="C:\Users\james\WebstormProjects\smorgasbord" />
       <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\view" />
-      <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\graphics" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -410,7 +439,11 @@
       <created>1345675075023</created>
       <updated>1345675075024</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="things generally into a framework. working on view class and thinking about matrix and vector classes....?">
+      <created>1345743361302</created>
+      <updated>1345743361302</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -434,13 +467,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1040" extended-state="6" />
+    <frame x="-8" y="-8" width="1036" height="612" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23309466" sideWeight="0.6715909" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25075227" sideWeight="0.6715909" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50877196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -494,7 +527,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="a lot of work to do on the smorg class" />
+    <option name="LAST_COMMIT_MESSAGE" value="things generally into a framework. working on view class and thinking about matrix and vector classes....?" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -524,125 +557,114 @@
     <MESSAGE value="even more shit from pop framework mostly in the smorg.js class. look at page 179 or rudy rucker." />
     <MESSAGE value="physics starting to be hooked into the sprite system" />
     <MESSAGE value="a lot of work to do on the smorg class" />
+    <MESSAGE value="things generally into a framework. working on view class and thinking about matrix and vector classes....?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/old/demo2.js">
+    <entry file="file://$PROJECT_DIR$/lib/lang/matrix.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="8" selection-start="1309" selection-end="1322" vertical-scroll-proportion="0.28421053">
-          <folding />
-        </state>
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/smorg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="51" selection-start="426" selection-end="426" vertical-scroll-proportion="0.31812865">
-          <folding />
-        </state>
+        <state line="10" column="6" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view/spriteLoop.js">
+    <entry file="file://$PROJECT_DIR$/lib/view/sprite/dhtmlSprites.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="64" selection-start="0" selection-end="1577" vertical-scroll-proportion="0.05964912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view/spriteIcon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="1" selection-start="824" selection-end="824" vertical-scroll-proportion="0.6619883">
+        <state line="13" column="9" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/view/sprite.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="48" selection-start="339" selection-end="339" vertical-scroll-proportion="0.2982456">
+        <state line="15" column="48" selection-start="339" selection-end="339" vertical-scroll-proportion="0.62653565">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.6362573">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="10" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view/graphics/dhtmlSprites.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="183" selection-end="183" vertical-scroll-proportion="0.25847954">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view/2d.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/view/matrix.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="308" vertical-scroll-proportion="0.0">
+        <state line="11" column="20" selection-start="0" selection-end="308" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/view/2d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/attributes/attributes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="313" selection-end="313" vertical-scroll-proportion="0.5169591">
+        <state line="24" column="12" selection-start="309" selection-end="309" vertical-scroll-proportion="0.6814988">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/cogSmorg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="59" selection-start="620" selection-end="620" vertical-scroll-proportion="0.39766082">
+        <state line="0" column="0" selection-start="0" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/view/graphics/graphics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="38" selection-start="346" selection-end="346" vertical-scroll-proportion="0.71662766">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/view/graphics/dhtml.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="27" selection-start="377" selection-end="377" vertical-scroll-proportion="0.676815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorg/viewPointSmorg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="63" selection-end="77" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="0.52224827">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="12" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="299" selection-end="299" vertical-scroll-proportion="0.11929824">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lang/vector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+        <state line="53" column="29" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.20374708">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lang/matrix.js">
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+        <state line="31" column="39" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/view/view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="47" selection-end="54" vertical-scroll-proportion="0.099415205">
+        <state line="62" column="12" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.76112413">
           <folding />
         </state>
       </provider>

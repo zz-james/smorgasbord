@@ -22,9 +22,6 @@ sb.attrib = {
 
     },
 
-    view:
-    {
-
-    }
+    graphics: sb.Dhtml
 
 };
