@@ -2,7 +2,8 @@ sb.attrib = {
 
     game:
     {
-        bord:sb.Bord2d
+        bord:sb.Bord2d,
+        size:{_lox:0, _hix:640, _loy:0, _hiy:480}
     },
 
     player:
