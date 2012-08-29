@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca1d184-3406-47dd-a37e-e32ca17a5ab1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report.rtf" afterPath="$PROJECT_DIR$/report.rtf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/point.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/lang/inheritence.js" afterPath="$PROJECT_DIR$/lib/lang/inheritence.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" afterPath="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/bord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/box.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/box.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/vector.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/vector.js" />
     </list>
     <ignored path="smorgasbord.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +31,17 @@
     <favorites_list name="smorgasbord" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="viewPointSmorg.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/smorg/viewPointSmorg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.52870816">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -37,10 +54,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/smorg/Person.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/KillerDuck.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/Duck.js" />
+        <option value="$PROJECT_DIR$/lib/view/view.js" />
+        <option value="$PROJECT_DIR$/lib/view/spriteLoop.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgList.js" />
+        <option value="$PROJECT_DIR$/resources/attributes/attributes.js" />
+        <option value="$PROJECT_DIR$/lib/view/sprite.js" />
+        <option value="$PROJECT_DIR$/lib/smorg/cogSmorg.js" />
+        <option value="$PROJECT_DIR$/lib/view/spriteIcon.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/point.js" />
+        <option value="$PROJECT_DIR$/lib/lang/inheritence.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/vector.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/box.js" />
+        <option value="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" />
       </list>
     </option>
   </component>
@@ -114,6 +143,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attributes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -153,6 +228,28 @@
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="force" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -161,12 +258,31 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\view" />
+      <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\smorg" />
+      <recent name="C:\Users\james\WebstormProjects\smorgasbord\resources\attributes" />
+      <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\smorgasbord" />
+      <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\lang" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\smorgasbord" />
+      <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\view\sprite" />
+      <recent name="C:\Users\james\WebstormProjects\smorgasbord\old" />
+      <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\force" />
+      <recent name="C:\Users\james\WebstormProjects\smorgasbord" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node JS" working-dir="$PROJECT_DIR$" coffeescript-run="false">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
       <JSRemoteDebuggerConfigurationSettings>
         <option name="engineId" value="firefox" />
@@ -181,7 +297,7 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugSession" factoryName="Local">
+    <configuration default="false" name="index.html" type="JavascriptDebugSession" factoryName="Local" editBeforeRun="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="chrome" />
         <option name="fileUrl" value="file://$PROJECT_DIR$/index.html" />
@@ -210,6 +326,7 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="false">C:\Users\james\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
@@ -235,7 +352,79 @@
       <created>1341440139485</created>
       <updated>1341440139485</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="section 1 of report - up to architecture">
+      <created>1341932672411</created>
+      <updated>1341932672411</updated>
+    </task>
+    <task id="LOCAL-00006" summary="done basic requirements on to architevture">
+      <created>1342298931382</created>
+      <updated>1342298931382</updated>
+    </task>
+    <task id="LOCAL-00007" summary="some getting into comparisons with MVC and MFC, need to look at events model for user UI">
+      <created>1342539870809</created>
+      <updated>1342539870809</updated>
+    </task>
+    <task id="LOCAL-00008" summary="tied browser architecture with windows wfc">
+      <created>1342611641982</created>
+      <updated>1342611641982</updated>
+    </task>
+    <task id="LOCAL-00009" summary="dhtml sprites from supercharged books">
+      <created>1342992620201</created>
+      <updated>1342992620201</updated>
+    </task>
+    <task id="LOCAL-00010" summary="constructor factory method that supports over-riding and super calls - the method is a property of all constructors made with this factory and creates a nice chaining effect. in many of my own words but based on J.Resig Ninja book, listing 6.20">
+      <created>1345065853714</created>
+      <updated>1345065853714</updated>
+    </task>
+    <task id="LOCAL-00011" summary="integrating box 2D physics engine, question to subclass bord ?">
+      <created>1345467222967</created>
+      <updated>1345467222967</updated>
+    </task>
+    <task id="LOCAL-00012" summary="subclass bord into bord2d and aggregate smorgs with box2d objecrs. Sometthing crappy going on with loading dependencies before trying to run the fucks. whatever. it is on it's way!">
+      <created>1345481458750</created>
+      <updated>1345481458750</updated>
+    </task>
+    <task id="LOCAL-00013" summary="bord properly subclassed">
+      <created>1345482156773</created>
+      <updated>1345482156773</updated>
+    </task>
+    <task id="LOCAL-00014" summary="contains all sorts of shit from pop framework">
+      <created>1345574122157</created>
+      <updated>1345574122157</updated>
+    </task>
+    <task id="LOCAL-00015" summary="even more shit from pop framework mostly in the smorg.js class. look at page 179 or rudy rucker.">
+      <created>1345577906538</created>
+      <updated>1345577906538</updated>
+    </task>
+    <task id="LOCAL-00016" summary="physics starting to be hooked into the sprite system">
+      <created>1345671299992</created>
+      <updated>1345671299992</updated>
+    </task>
+    <task id="LOCAL-00017" summary="a lot of work to do on the smorg class">
+      <created>1345675075023</created>
+      <updated>1345675075024</updated>
+    </task>
+    <task id="LOCAL-00018" summary="things generally into a framework. working on view class and thinking about matrix and vector classes....?">
+      <created>1345743361302</created>
+      <updated>1345743361302</updated>
+    </task>
+    <task id="LOCAL-00019" summary="still thinking of matrix and vectors, most methods for view/graphics/smorg/smorglist in place">
+      <created>1345935200486</created>
+      <updated>1345935200486</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fuck. the update method in pop frameworks critterviewer is total dog. why they not seperate 2D and 3D case nicely to give people an easy way in. nobs.">
+      <created>1346002989359</created>
+      <updated>1346002989359</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ok looking a bit more promising all major objects are up and running and the game loop is looping, a lot of methods are not filled out..">
+      <created>1346074926937</created>
+      <updated>1346074926937</updated>
+    </task>
+    <task id="LOCAL-00022" summary="minor fiddles not sure what, rearranged how sprites are instanced and how width and height  are passed in from attributes">
+      <created>1346101750022</created>
+      <updated>1346101750022</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -259,23 +448,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="616" extended-state="0" />
+    <frame x="-8" y="-8" width="1040" height="616" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24375625" sideWeight="0.67105263" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27572426" sideWeight="0.67105263" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50877196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -319,7 +508,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates to report.rtf argument about aot/jit" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fiddles not sure what, rearranged how sprites are instanced and how width and height  are passed in from attributes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -336,34 +525,133 @@
     <MESSAGE value="added comments to extends() function" />
     <MESSAGE value="added repoort.rtf file" />
     <MESSAGE value="updates to report.rtf argument about aot/jit" />
+    <MESSAGE value="section 1 of report - up to architecture" />
+    <MESSAGE value="done basic requirements on to architevture" />
+    <MESSAGE value="some getting into comparisons with MVC and MFC, need to look at events model for user UI" />
+    <MESSAGE value="tied browser architecture with windows wfc" />
+    <MESSAGE value="dhtml sprites from supercharged books" />
+    <MESSAGE value="constructor factory method that supports over-riding and super calls - the method is a property of all constructors made with this factory and creates a nice chaining effect. in many of my own words but based on J.Resig Ninja book, listing 6.20" />
+    <MESSAGE value="integrating box 2D physics engine, question to subclass bord ?" />
+    <MESSAGE value="subclass bord into bord2d and aggregate smorgs with box2d objecrs. Sometthing crappy going on with loading dependencies before trying to run the fucks. whatever. it is on it's way!" />
+    <MESSAGE value="bord properly subclassed" />
+    <MESSAGE value="contains all sorts of shit from pop framework" />
+    <MESSAGE value="even more shit from pop framework mostly in the smorg.js class. look at page 179 or rudy rucker." />
+    <MESSAGE value="physics starting to be hooked into the sprite system" />
+    <MESSAGE value="a lot of work to do on the smorg class" />
+    <MESSAGE value="things generally into a framework. working on view class and thinking about matrix and vector classes....?" />
+    <MESSAGE value="still thinking of matrix and vectors, most methods for view/graphics/smorg/smorglist in place" />
+    <MESSAGE value="fuck. the update method in pop frameworks critterviewer is total dog. why they not seperate 2D and 3D case nicely to give people an easy way in. nobs." />
+    <MESSAGE value="ok looking a bit more promising all major objects are up and running and the game loop is looping, a lot of methods are not filled out.." />
+    <MESSAGE value="minor fiddles not sure what, rearranged how sprites are instanced and how width and height  are passed in from attributes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/smorg/Person.js">
+    <entry file="file://$PROJECT_DIR$/lib/view/spriteIcon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="296" vertical-scroll-proportion="0.0" />
+        <state line="25" column="43" selection-start="669" selection-end="669" vertical-scroll-proportion="0.7464115" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorg/KillerDuck.js">
+    <entry file="file://$PROJECT_DIR$/lib/view/sprite.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="8" column="5" selection-start="109" selection-end="109" vertical-scroll-proportion="0.31554523" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/lib/view/graphics/dhtml.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="473" selection-end="473" vertical-scroll-proportion="0.86734694" />
+        <state line="5" column="22" selection-start="77" selection-end="77" vertical-scroll-proportion="0.17169374" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/lib/force/force.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/matrix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/point.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="92" selection-end="92" vertical-scroll-proportion="0.2761021">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorg/cogSmorg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="56" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.5527638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorg/smorg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="36" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.5916473">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.039443154" />
+        <state line="23" column="43" selection-start="563" selection-end="563" vertical-scroll-proportion="0.2900232">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="9" selection-start="935" selection-end="935" vertical-scroll-proportion="1.2227378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lang/inheritence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="30" selection-start="1420" selection-end="1420" vertical-scroll-proportion="0.5263158">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="109" selection-start="1511" selection-end="1511" vertical-scroll-proportion="2.0334928">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/vector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="7" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/attributes/attributes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="59" selection-start="138" selection-end="138" vertical-scroll-proportion="0.4338747" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/box.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="112" selection-start="504" selection-end="504" vertical-scroll-proportion="0.7320574">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorg/viewPointSmorg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.52870816">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

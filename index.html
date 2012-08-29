@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <head>
-    <title>Smorgasborg</title>
-    <style type="text/css">
-        html,body {
-            background-color: #000;
-            color: #fff;
-            font-family: helvetica, arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            font-size: 12pt;
-        }
+    <title>
+        Smorgasbord Demonstration
+    </title>
+    <script type="text/javascript">
+        // IE6 background image caching fix.
+        // Include this JavaScript a the top of your page.
+        try {
+            document.execCommand("BackgroundImageCache", false, true);
+        } catch(e) {}
+    </script>
 
-        #canvas {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            border: 1px solid #555;
-        }
-    </style>
+    <script type="text/javascript" data-main="lib/smorgasbord/smorgasbord.js" src="lib/require/require.js"></script>
+    <link rel="stylesheet" type="text/css" href="resources/styles/style.css" />
 
-    <script type="text/javascript" data-main="lib/smorgasbord/smorgasbord" src="lib/require/require.js"></script>
 
 </head>
+
 <body>
-<div id="screen"></div>
+<p>DHTML Demonstration. Sprites being drawn.</p>
+
+
+<div id="draw-target"></div>
+
+
+<canvas id="c" width="640" height="480" style="border: 1px solid black"></canvas>
 </body>
 </html>
