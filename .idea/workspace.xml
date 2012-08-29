@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca1d184-3406-47dd-a37e-e32ca17a5ab1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/matrix2d.js" />
-      <change type="DELETED" beforePath="C:\Users\James\work\smorgasbord\lib\smorgasbord\matrix.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/cogSmorg.js" afterPath="$PROJECT_DIR$/lib/smorg/cogSmorg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/smorg.js" afterPath="$PROJECT_DIR$/lib/smorg/smorg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" afterPath="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/bord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/box.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/box.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/smorgList.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/smorgList.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/vector.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/vector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/view/view.js" afterPath="$PROJECT_DIR$/lib/view/view.js" />
     </list>
     <ignored path="smorgasbord.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +28,71 @@
     <favorites_list name="smorgasbord" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="view.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/view/view.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="8" selection-start="929" selection-end="960" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewPointSmorg.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/smorg/viewPointSmorg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="6" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smorg.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/smorg/smorg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="0" selection-start="2880" selection-end="2880" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smorgList.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="2" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bord.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.8331288">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bord2d.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="6" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smorgasbord.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="4" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -46,22 +105,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgList.js" />
-        <option value="$PROJECT_DIR$/resources/attributes/attributes.js" />
         <option value="$PROJECT_DIR$/lib/view/sprite.js" />
         <option value="$PROJECT_DIR$/lib/view/spriteIcon.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/point.js" />
         <option value="$PROJECT_DIR$/lib/lang/inheritence.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/box.js" />
         <option value="$PROJECT_DIR$/lib/smorg/cogSmorg.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/matrix.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/matrix2d.js" />
+        <option value="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/vector.js" />
         <option value="$PROJECT_DIR$/lib/smorg/smorg.js" />
-        <option value="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgList.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
+        <option value="$PROJECT_DIR$/lib/view/view.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
       </list>
     </option>
   </component>
@@ -478,7 +537,11 @@
       <created>1346101750022</created>
       <updated>1346101750022</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="alright the viewersmorg is 'in' the framework but things methods are not filled out.... usual story more framework than funcitons...">
+      <created>1346273809495</created>
+      <updated>1346273809495</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -505,11 +568,12 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19172633" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19172633" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50877196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -519,7 +583,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -562,7 +625,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor fiddles not sure what, rearranged how sprites are instanced and how width and height  are passed in from attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="alright the viewersmorg is 'in' the framework but things methods are not filled out.... usual story more framework than funcitons..." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -597,6 +660,7 @@
     <MESSAGE value="fuck. the update method in pop frameworks critterviewer is total dog. why they not seperate 2D and 3D case nicely to give people an easy way in. nobs." />
     <MESSAGE value="ok looking a bit more promising all major objects are up and running and the game loop is looping, a lot of methods are not filled out.." />
     <MESSAGE value="minor fiddles not sure what, rearranged how sprites are instanced and how width and height  are passed in from attributes" />
+    <MESSAGE value="alright the viewersmorg is 'in' the framework but things methods are not filled out.... usual story more framework than funcitons..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -612,13 +676,6 @@
         <state line="7" column="43" selection-start="92" selection-end="92" vertical-scroll-proportion="0.2761021" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorg/cogSmorg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.22822087">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/attributes/attributes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="6" selection-start="138" selection-end="138" vertical-scroll-proportion="0.22944786">
@@ -629,13 +686,6 @@
     <entry file="file://$PROJECT_DIR$/lib/view/graphics/dhtml.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="22" selection-start="77" selection-end="77" vertical-scroll-proportion="0.10429448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view/view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="45" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -661,44 +711,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/vector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="29" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+        <state line="30" column="7" selection-start="697" selection-end="697" vertical-scroll-proportion="0.10429448">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/vector.js">
+    <entry file="file://$PROJECT_DIR$/lib/smorg/cogSmorg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="6" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="-0.37336245">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/smorg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="2881" selection-end="2947" vertical-scroll-proportion="0.0">
+        <state line="81" column="0" selection-start="2880" selection-end="2880" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="2" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="4" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/viewPointSmorg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="35" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.6453988">
+        <state line="34" column="6" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
+    <entry file="file://$PROJECT_DIR$/lib/view/view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="48" selection-start="702" selection-end="702" vertical-scroll-proportion="0.5006135">
+        <state line="33" column="8" selection-start="929" selection-end="960" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="8" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.5840491">
+        <state line="52" column="6" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.8331288">
           <folding />
         </state>
       </provider>
