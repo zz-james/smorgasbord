@@ -13,13 +13,11 @@ sb.attrib = {
 
     smorgs:
     {
-        cog1:sb.CogSmorg,
-        cog2:sb.CogSmorg,
-        cog3:sb.CogSmorg,
-        cog4:sb.CogSmorg,
-        cog5:sb.CogSmorg,
+        block:sb.BlockSmorg,
+        cog7:sb.CogSmorg,
         cog6:sb.CogSmorg,
-        cog7:sb.CogSmorg
+        cog5:sb.CogSmorg,
+        cog4:sb.CogSmorg
 
     },
 
