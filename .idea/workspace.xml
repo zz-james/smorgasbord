@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca1d184-3406-47dd-a37e-e32ca17a5ab1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/donkey-kong.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/listener/listenerFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorg/monkeySmorg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorg/pegs/peg_PhysicsBox.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/blockSmorg.js" afterPath="$PROJECT_DIR$/lib/smorg/blockSmorg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/cogSmorg.js" afterPath="$PROJECT_DIR$/lib/smorg/cogSmorg.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/smorg.js" afterPath="$PROJECT_DIR$/lib/smorg/smorg.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" afterPath="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/bord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/vector.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/vector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/view/graphics/dhtml.js" afterPath="$PROJECT_DIR$/lib/view/graphics/dhtml.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/view/view.js" afterPath="$PROJECT_DIR$/lib/view/view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/view/sprite/spriteIcon.js" afterPath="$PROJECT_DIR$/lib/view/sprite/spriteIcon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/attributes/attributes.js" afterPath="$PROJECT_DIR$/resources/attributes/attributes.js" />
     </list>
     <ignored path="smorgasbord.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,82 +39,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="view.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/view/view.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="29" selection-start="1225" selection-end="1258" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bord2d.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="51" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewPointSmorg.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/smorg/viewPointSmorg.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="8" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.61845386">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smorg.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/smorg/smorg.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="8" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="box.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/box.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="10" selection-start="490" selection-end="496" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bord.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="7" selection-start="181" selection-end="187" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dhtml.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/view/graphics/dhtml.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="44" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vector.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/smorgasbord/vector.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smorgasbord.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="smorgasbord.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.0">
+            <state line="80" column="14" selection-start="2117" selection-end="2130" vertical-scroll-proportion="0.81349695">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listenerFactory.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/listener/listenerFactory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="24" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,22 +70,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/smorg/pins/pin.js" />
-        <option value="$PROJECT_DIR$/resources/styles/style.css" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
-        <option value="$PROJECT_DIR$/lib/smorg/pegs/peg_PhysicsCircle.js" />
-        <option value="$PROJECT_DIR$/lib/smorg/cogSmorg.js" />
-        <option value="$PROJECT_DIR$/lib/smorg/pins/pin_PhysicsBox.js" />
-        <option value="$PROJECT_DIR$/lib/view/sprite/spriteIcon.js" />
-        <option value="$PROJECT_DIR$/lib/smorg/blockSmorg.js" />
-        <option value="$PROJECT_DIR$/resources/attributes/attributes.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/vector.js" />
         <option value="$PROJECT_DIR$/lib/view/view.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/lib/smorg/pegs/peg_PhysicsBox.js" />
+        <option value="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/bord2d.js" />
         <option value="$PROJECT_DIR$/lib/view/graphics/dhtml.js" />
         <option value="$PROJECT_DIR$/lib/smorg/smorg.js" />
-        <option value="$PROJECT_DIR$/lib/smorg/viewPointSmorg.js" />
+        <option value="$PROJECT_DIR$/lib/smorg/monkeySmorg.js" />
+        <option value="$PROJECT_DIR$/lib/smorg/cogSmorg.js" />
+        <option value="$PROJECT_DIR$/lib/smorg/blockSmorg.js" />
+        <option value="$PROJECT_DIR$/lib/view/sprite/spriteIcon.js" />
+        <option value="$PROJECT_DIR$/resources/attributes/attributes.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/bord.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
+        <option value="$PROJECT_DIR$/lib/listener/listenerFactory.js" />
       </list>
     </option>
   </component>
@@ -183,172 +129,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sprite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -373,11 +153,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\James\work\smorgasbord\lib\listener" />
       <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\smorg" />
       <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\view" />
       <recent name="C:\Users\james\WebstormProjects\smorgasbord\resources\attributes" />
       <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\smorgasbord" />
-      <recent name="C:\Users\james\WebstormProjects\smorgasbord\lib\lang" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\James\work\smorgasbord\resources" />
@@ -552,7 +332,11 @@
       <created>1346682994972</created>
       <updated>1346682994972</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="camera shizzle seems like  a pain in the ass.">
+      <created>1346688819809</created>
+      <updated>1346688819809</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -579,12 +363,11 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46052632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5619048" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23468576" sideWeight="0.43809524" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23468576" sideWeight="0.43809524" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50877196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -594,6 +377,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46052632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -636,7 +420,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="stuff working hella slow. focusing on camera now" />
+    <option name="LAST_COMMIT_MESSAGE" value="camera shizzle seems like  a pain in the ass." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -649,7 +433,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="section 1 of report - up to architecture" />
     <MESSAGE value="done basic requirements on to architevture" />
     <MESSAGE value="some getting into comparisons with MVC and MFC, need to look at events model for user UI" />
     <MESSAGE value="tied browser architecture with windows wfc" />
@@ -674,119 +457,122 @@
     <MESSAGE value="yeah it's very slow. but it works in the way it is supposed to. now look at camera class and not dynamic physics pins" />
     <MESSAGE value="ok non dynamic physics pins in place. make some terrain and then look into the bloody camera class" />
     <MESSAGE value="stuff working hella slow. focusing on camera now" />
+    <MESSAGE value="camera shizzle seems like  a pain in the ass." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/smorg/pins/pin_PhysicsBox.js">
+    <entry file="file://$PROJECT_DIR$/lib/force/force.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="44" selection-start="458" selection-end="458" vertical-scroll-proportion="0.25030676">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorg/blockSmorg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="23" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.4488778">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/attributes/attributes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="468" selection-end="468" vertical-scroll-proportion="0.39631903">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorg/cogSmorg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1530" selection-end="1612" vertical-scroll-proportion="1.1446384">
-          <folding />
+        <state line="8" column="1" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/pegs/peg_PhysicsCircle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="72" selection-start="277" selection-end="277" vertical-scroll-proportion="0.12515338">
+        <state line="7" column="41" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view/graphics/graphics.js">
+    <entry file="file://$PROJECT_DIR$/lib/smorg/pins/pin_PhysicsBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="69" selection-start="542" selection-end="613" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view/view.js">
+    <entry file="file://$PROJECT_DIR$/lib/smorg/pegs/peg_PhysicsBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="29" selection-start="1225" selection-end="1258" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="181" selection-end="187" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/box.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="10" selection-start="490" selection-end="496" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view/sprite/spriteIcon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="71" selection-start="815" selection-end="878" vertical-scroll-proportion="0.4910486">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="51" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view/graphics/dhtml.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="44" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorg/smorg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="8" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/vector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0">
+        <state line="4" column="57" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/viewPointSmorg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="8" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.61845386">
+        <state line="29" column="28" selection-start="669" selection-end="669" vertical-scroll-proportion="0.36034912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/view/graphics/dhtml.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="98" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.4368098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="566" selection-end="566" vertical-scroll-proportion="0.37546012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorg/monkeySmorg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorg/cogSmorg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorg/blockSmorg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="31" selection-start="560" selection-end="560" vertical-scroll-proportion="0.26683292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/view/sprite/spriteIcon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="51" selection-start="353" selection-end="353" vertical-scroll-proportion="0.27930173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorg/smorg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="379" selection-end="379" vertical-scroll-proportion="0.12515338">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/attributes/attributes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="21" selection-start="208" selection-end="208" vertical-scroll-proportion="0.22944786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="59" selection-start="746" selection-end="746" vertical-scroll-proportion="0.37423313">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/listener/listenerFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="24" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="14" selection-start="2117" selection-end="2130" vertical-scroll-proportion="0.81349695">
           <folding />
         </state>
       </provider>
