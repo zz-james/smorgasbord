@@ -22,7 +22,12 @@
 <body>
 <p>DHTML Demonstration.</p>
 
-<div id="ui" style="float:right;width:250px;height:250px;border:1px solid black"></div>
+<div id="ui" style="text-align:center;float:right;width:250px;height:400px;border:1px solid black">
+    Camera Controls:<br />
+    <button onclick="cameraTrack()">Track Player</button><br />
+    <button onclick="cameraKeys()">Arrow Keys</button>
+    <div id="out" style="height:100px; border:1px solid black; margin:5px;"></div>
+</div>
 
 
 <div id="viewport">
@@ -32,5 +37,17 @@
 <span style="position:absolute;top:240px;left:320px">M</span>
 <canvas id="c" width="640" height="480" style="border: 1px solid black"></canvas>
 -->
+
+
+<script language="javascript" type="text/javascript">
+    cameraTrack = function() {
+        sb._VIEW._viewPointSmorg.trackPlayer = true;
+    };
+
+    cameraKeys = function() {
+        sb._VIEW._viewPointSmorg.trackPlayer = false;
+    };
+
+</script>
 </body>
 </html>
