@@ -1,3 +1,7 @@
 #draw-target {
     background-color:#ccf;
 }
+
+#viewport {
+    border: 1px solid #333;
+}
