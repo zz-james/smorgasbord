@@ -9,14 +9,14 @@ sb.attrib = {
 
     player:
     {
-        name:'cog',
+        name:'rmonkey',
         type:sb.MonkeySmorg,
         params:{x:450,y:-250,density:20}
     },
 
     smorgs:
     {
-        monkey:{type:sb.MonkeySmorg,params:{x:150,y:260,density:10}},
+        lmonkey:{type:sb.MonkeySmorg,params:{x:150,y:280,density:10}},
         floor:{type:sb.BlockSmorg, params:{x:300,y:390, _width:600, _height: 20, rotation: +0}},
         lwall:{type:sb.BlockSmorg, params:{x:10,y:200, _width:600, _height: 20, rotation: +90}},
         rwall:{type:sb.BlockSmorg, params:{x:590,y:200, _width:960, _height: 20, rotation: +90}},

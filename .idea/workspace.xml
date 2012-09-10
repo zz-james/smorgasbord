@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca1d184-3406-47dd-a37e-e32ca17a5ab1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorg/seesawSmorg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord2d2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/attributes/attributes3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/graph.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/wood.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/monkeySmorg.js" afterPath="$PROJECT_DIR$/lib/smorg/monkeySmorg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/pegs/peg_PhysicsBox.js" afterPath="$PROJECT_DIR$/lib/smorg/pegs/peg_PhysicsBox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/smorg.js" afterPath="$PROJECT_DIR$/lib/smorg/smorg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/carbord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/carbord.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/smorgList.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/smorgList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorg/seesawSmorg.js" afterPath="$PROJECT_DIR$/lib/smorg/seesawSmorg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/smorgasbord/bord2d2.js" afterPath="$PROJECT_DIR$/lib/smorgasbord/bord2d2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/attributes/attributes3.js" afterPath="$PROJECT_DIR$/resources/attributes/attributes3.js" />
     </list>
     <ignored path="smorgasbord.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,22 +49,22 @@
         <option value="$PROJECT_DIR$/resources/attributes/attributes2.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/carbord.js" />
         <option value="$PROJECT_DIR$/lib/smorg/deckSmorg.js" />
-        <option value="$PROJECT_DIR$/lib/smorg/seesawSmorg.js" />
         <option value="$PROJECT_DIR$/lib/smorg/pegs/peg_PhysicsBox.js" />
         <option value="$PROJECT_DIR$/lib/smorg/monkeySmorg.js" />
         <option value="$PROJECT_DIR$/lib/smorg/smorg.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/smorgList.js" />
+        <option value="$PROJECT_DIR$/lib/smorg/seesawSmorg.js" />
         <option value="$PROJECT_DIR$/resources/attributes/attributes3.js" />
-        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
         <option value="$PROJECT_DIR$/lib/smorgasbord/bord2d2.js" />
+        <option value="$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="616" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -96,16 +92,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -134,7 +120,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -148,12 +134,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="smorgasbord" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -174,15 +170,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="74" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="737" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="736" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="737" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="74" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="73" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -425,14 +421,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="616" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5614035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2857143" sideWeight="0.4385965" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28560063" sideWeight="0.4385965" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50877196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32467532" sideWeight="0.5548246" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -442,6 +437,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5614035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46052632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -528,114 +524,92 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/smorg/pins/pin_PhysicsBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="8" selection-start="404" selection-end="451" vertical-scroll-proportion="0.48994976">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/wheelSmorg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="61" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.30861244">
-          <folding />
-        </state>
+        <state line="47" column="61" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.30861244" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/pegs/peg_Steering.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="72" selection-start="1366" selection-end="1409" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="29" column="72" selection-start="1366" selection-end="1409" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/attributes/attributes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="53" selection-start="1290" selection-end="1309" vertical-scroll-proportion="0.6507177">
-          <folding />
-        </state>
+        <state line="28" column="53" selection-start="1290" selection-end="1309" vertical-scroll-proportion="0.6507177" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="7" selection-start="1324" selection-end="1351" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="42" column="7" selection-start="1324" selection-end="1351" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/pegs/peg_PhysicsBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smorg/seesawSmorg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="41" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="9" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/viewPointSmorg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="12" selection-start="2377" selection-end="2420" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="74" column="12" selection-start="2377" selection-end="2420" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="109" selection-end="118" vertical-scroll-proportion="0.2761021">
-          <folding />
-        </state>
+        <state line="7" column="13" selection-start="109" selection-end="118" vertical-scroll-proportion="0.2761021" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/cogSmorg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="884" selection-end="884" vertical-scroll-proportion="0.20334928">
-          <folding />
-        </state>
+        <state line="30" column="42" selection-start="884" selection-end="884" vertical-scroll-proportion="0.20334928" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/monkeySmorg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="16" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorg/smorg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="617" selection-end="617" vertical-scroll-proportion="0.5522042">
-          <folding />
-        </state>
+        <state line="20" column="25" selection-start="617" selection-end="617" vertical-scroll-proportion="0.5522042" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="25" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.715311">
+        <state line="70" column="25" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.715311" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smorg/seesawSmorg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="42" selection-start="622" selection-end="622" vertical-scroll-proportion="0.25810474">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="59" selection-start="585" selection-end="595" vertical-scroll-proportion="0.087628864">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/attributes/attributes3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="274" selection-end="274" vertical-scroll-proportion="0.40669855">
+        <state line="18" column="55" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorgasbord/smorgasbord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1770" selection-end="2153" vertical-scroll-proportion="0.512761">
+        <state line="110" column="2" selection-start="3002" selection-end="3002" vertical-scroll-proportion="0.8122699">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/smorgasbord/bord2d2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="151" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.18660288">
+        <state line="56" column="38" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.6608479">
           <folding />
         </state>
       </provider>
